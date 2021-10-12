@@ -1,54 +1,115 @@
-:root {
-  --colorPrincipal: red;
-}
-
-body {
+.wrapper {
   background: #fff;
+  width: 100%;
+  height: auto;
 }
-
-.logo img {
-  width: 200px;
-}
-
-#header {
-  background-image: url(../images/bg-hero-desktop.svg);
-  background-color: #edfbfe;
-  height: 500px;
-  padding: 50px 40px 0px 40px;
-}
-
-#container {
+.container {
   width: 1440px;
+  height: auto;
   margin: 0 auto;
 }
 
-#header .logo {
+.header {
+  background-image: url(../images/bg-hero-desktop.svg);
+  background-color: #edfbfe;
+  height: 500px;
+  padding: 50px 50px 0px 50px;
+}
+
+.header .try button {
+  font-family: "Poppins", sans-serif;
+  color: #00262e;
+  background-color: #fff;
+  border-radius: 15px;
+  padding: 6px 50px;
+  border: none;
+  float: right;
+  box-shadow: 0px 0px 2px #a7b9c7;
+}
+.header .logo {
   float: left;
 }
 
-.try button {
-  color: #00262e;
-  float: right;
-  background-color: #fff;
-  padding: 10px 40px;
-  border-radius: 20px;
-  border: none;
-  box-shadow: 0px 0px 2px #a5b9ca;
-  font-family: "Poppins", sans-serif;
+.info-description {
+  width: 500px;
+  font-family: "Open Sans", sans-serif;
+  margin-top: 70px;
+  float: left;
 }
 
-.fa-facebook:hover {
-  font-size: 50px;
-  color: red;
+.section-container .section {
+  border: 1px solid #f2f2f2;
+  margin: 50px 56px;
+  box-shadow: 0px 0px 10px #f2f2f2;
+  border-radius: 5px;
+  height: 240px;
+  padding: 45px 80px 48px 130px;
 }
-/*
-@media (max-width: 500px) {
-  #header {
-    width: 100%;
-  }
+
+.section-info p {
+  color: #999;
 }
-@media (min-width: 375px) {
-  #header {
-    width: 50%;
-  }
-} */
+.section-container {
+  margin-top: 130px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.section-img {
+  width: 50%;
+  text-align: right;
+  float: right;
+  margin-left: 28px;
+}
+
+.section-img img {
+  width: 50%;
+}
+
+.section-info {
+  width: 45%;
+  float: left;
+}
+
+.info-image {
+  float: left;
+  width: 500px;
+}
+.info-image img {
+  width: 580px;
+  margin: 16px 0px 20px 179px;
+}
+
+.info-description h1 {
+  font-weight: 600;
+  width: 440px;
+  font-size: 45px;
+  line-height: 60px;
+}
+
+.info-description button,
+.section-info button {
+  color: #fff;
+  background-color: #fe52c0;
+  border-radius: 40px;
+  padding: 10px 50px;
+  border: none;
+  margin-left: 17px;
+  margin-top: 15px;
+}
+.section-info button:hover {
+  background-color: black;
+}
+
+input {
+  width: 500px;
+  height: 30px;
+
+  margin: 10px 0;
+  padding-left: 10px;
+  border: 1px solid #666;
+  border-radius: 5px;
+}
+
+.clear {
+  clear: both;
+}

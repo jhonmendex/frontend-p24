@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Ejemplo FRONT P-22</title>
     <link rel="stylesheet" href="css/styles.css" type="text/css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -16,36 +16,113 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
     />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
   </head>
   <body>
-    <section></section>
-    <div id="wrapper">
-      <div id="container">
-        <div id="header">
+    <div class="wrapper">
+      <div class="container">
+        <div class="header">
           <div class="logo">
             <img src="images/logo.svg" alt="logo" />
           </div>
           <div class="try">
             <button>Try it Free</button>
           </div>
+          <div class="clear"></div>
           <div class="info">
             <div class="info-description">
-              <h3>Build the comunity</h3>
+              <h1>Build the comunity your fans will love</h1>
               <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Inventore repellat id natus animi. Cum, accusamus fugit? Nulla
-                nemo obcaecati dicta laboriosam tenetur optio facere, dolorem,
-                commodi unde fuga, error quos?
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Possimus explicabo impedit quisquam accusamus sunt obcaecati nam
+                iusto ipsam? Incidunt quibusdam ut, est culpa soluta facere
+                autem aliquid dolores dicta sint.
               </p>
               <button>Get started for free</button>
             </div>
-            <div class="info-image"></div>
+            <div class="info-image">
+              <img src="images/illustration-mockups.svg" alt="mockup" />
+            </div>
+            <div class="clear"></div>
+          </div>
+        </div>
+        <div class="section-container">
+          <div class="section">
+            <div class="section-info">
+              <h2>Registro usuarios</h2>
+              <input
+                id="nombreUsu"
+                required="required"
+                type="text"
+                placeholder="Digite su nombre"
+              />
+              <input type="text" placeholder="Digite su apellido" />
+              <input type="text" placeholder="Digite su edad" />
+              <input type="email" placeholder="Digite su correo" />
+              <input type="date" placeholder="Digite su fecha de nacimiento" />
+              <button onclick="registrarUsuario()">Registrar usuario</button>
+            </div>
+          </div>
+          <div class="section">
+            <div class="section-info">
+              <h2>Grow Together</h2>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Aspernatur, quae soluta, quo ipsam ratione vel animi earum ullam
+                id enim necessitatibus tempore iste incidunt quisquam adipisci
+                temporibus explicabo laboriosam veritatis!
+              </p>
+            </div>
+            <div class="section-img">
+              <img
+                src="images/illustration-grow-together.svg"
+                alt="conversation"
+              />
+            </div>
+          </div>
+          <div class="section">
+            <div class="section-info">
+              <h2>Flowing Conversation</h2>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Similique ut minima in, odio hic impedit officia beatae natus
+                pariatur laudantium dolorum nostrum tempore architecto, commodi
+                sed perspiciatis? Laboriosam, omnis amet?
+              </p>
+            </div>
+            <div class="section-img">
+              <img
+                src="images/illustration-flowing-conversation.svg"
+                alt="conversation"
+              />
+            </div>
+          </div>
+          <div class="section">
+            <div class="section-info">
+              <h2>Your Users</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Officiis molestiae ipsa possimus id sapiente libero nulla,
+                ducimus, aliquid eligendi corporis nesciunt facere soluta
+                voluptatibus adipisci obcaecati expedita consequuntur laudantium
+                tenetur.
+              </p>
+            </div>
+            <div class="section-img">
+              <img src="images/illustration-your-users.svg" alt="users" />
+            </div>
           </div>
         </div>
       </div>
-      <footer>
-        <i class="fab fa-facebook"></i>
-      </footer>
     </div>
   </body>
 </html>
