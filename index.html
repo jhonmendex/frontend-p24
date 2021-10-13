@@ -31,6 +31,10 @@
     <div class="wrapper">
       <div class="container">
         <div class="header">
+          <nav>
+            <h1>Home</h1>
+            <li><a href="contacto.html">Contacto</a></li>
+          </nav>
           <div class="logo">
             <img src="images/logo.svg" alt="logo" />
           </div>
@@ -40,7 +44,7 @@
           <div class="clear"></div>
           <div class="info">
             <div class="info-description">
-              <h1>Build the comunity your fans will love</h1>
+              <h1>Hola grupo - 24</h1>
               <p>
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                 Possimus explicabo impedit quisquam accusamus sunt obcaecati nam
@@ -60,15 +64,35 @@
             <div class="section-info">
               <h2>Registro usuarios</h2>
               <input
-                id="nombreUsu"
-                required="required"
+                id="nomUsu"
                 type="text"
+                value=""
                 placeholder="Digite su nombre"
               />
-              <input type="text" placeholder="Digite su apellido" />
-              <input type="text" placeholder="Digite su edad" />
-              <input type="email" placeholder="Digite su correo" />
-              <input type="date" placeholder="Digite su fecha de nacimiento" />
+              <input
+                id="apeUsu"
+                value=""
+                type="text"
+                placeholder="Digite su apellido"
+              />
+              <input
+                id="edaUsu"
+                value=""
+                type="text"
+                placeholder="Digite su edad"
+              />
+              <input
+                id="corUsu"
+                value=""
+                type="email"
+                placeholder="Digite su correo"
+              />
+              <input
+                id="fecUsu"
+                type="date"
+                value=""
+                placeholder="Digite su fecha de nacimiento"
+              />
               <button onclick="registrarUsuario()">Registrar usuario</button>
             </div>
           </div>
